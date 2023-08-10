@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ .home{
+    position: sticky;
+    box-shadow: 0 1px 15px rgba(0,0,0,0.1);
+    top: 0;
+    padding: 10px 0;
+    background-color: white;
+    list-style-type: none;
+}
+.home nav{
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+margin: 0px 80px;
+padding: 0 0 0 20px;
+
+}
+ 
+.home nav .logo{
+    position: sticky;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    line-height: 1.5;
+}
+.home nav .logo span:first-child{
+    color: orange;
+}
+
+.home nav ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 5px;
+}
+.home nav ul li{
+padding:10px 0px 10px 30px ;
+display: flex;
+align-items: center;
+list-style-type: none;
+}
+    .home nav ul li .h {
+    color: orange;
+}
+
+
+.home nav ul li a{
+text-decoration: none;
+font-size: 15px;
+font-weight: 700;
+color: black;
+}
+.home nav ul li a:hover{
+    color: #ed893d;
+}
+.home nav ul li a span{
+    color: orange;
+}
+.home nav .sign{
+
+ color: orange;
+}
+
+.log{
+    width: 60%;
+    height: 40vh;
+    margin:100px auto ;
+    text-align: center;
+    border:2px solid black ;
+    border-radius:20px ;
+}
+.log .about{
+    background-color: rgb(165, 165, 165);
+    padding:10px 0px ;
+    border-bottom:1px solid gray ;
+    border-radius:19px 19px 0 0 ; 
+}
+.log .about h3{
+    font-size: 30px;
+}
+
+.log .in{
+    width: 100%;
+    font-weight: bold;
+    font-size:20px ;
+}
+.log .in label{
+    margin-right: 15px;
+}
+
+.log .in input{
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    border:1px solid black;
+    margin-top:15px ;
+}
+
+.log .in input:hover{
+    background-color:white;
+    box-shadow: 0 10px 30px rgb(104, 84, 232);
+transition: all 0.4s;
+border: rgb(104, 84, 232);
+}
+
+.log .in .Password input{
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    border:1px solid black;
+    margin-top:15px ;
+    margin-left: 39px;
+}
+
+.log .into{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+}
+.log .into input{
+    height: 10px;
+    width: 17px;
+}
+.log .on button{border: 1px solid transparent;
+    background-color: #ed893d;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 10px;
+  margin-top: 20px;
+}
+.log .on button:hover{
+    background-color:blue;
+    box-shadow: 0 10px 15px rgb(32, 32, 32);
+transition: all 0.4s;
+}
+.log .on a{
+    color: black;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-left: 50px;}
+
+    .log .on a:hover{
+        color: blue;
+    }
+
+    footer{
+        border-top: 15px solid black;
+        text-align: center;
+        margin-top:20px ;
+    }
+    footer .flo p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: #505050;
+        padding-bottom: 10px;
+        margin-top: 40px;
+    }
+    
+    footer .flo2 p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: #505050;
+        padding-bottom: 10px;
+    }
+    
+    footer .flo2 a{
+        text-decoration: none;
+        color: #ed893d;
+    } 
+    footer .flo2 a:hover{
+       color:rgb(8, 6, 131);
+        box-shadow: 12px 30px 30px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s;
+    }
+   
